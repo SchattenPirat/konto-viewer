@@ -1,0 +1,40 @@
+{
+  "name": "@die-sache/create-react-app",
+  "version": "1.0.2",
+  "private": false,
+  "description": "Starter für die-sache react apps",
+  "bin": "./bin/create.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint ."
+  },
+  "author": "OmegaPirat",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "csv-parser": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-papaparse": "^4.4.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "8.22.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vite-plugin-zip-pack": "^1.0.4"
+  }
+}
